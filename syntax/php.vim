@@ -579,7 +579,7 @@ endif
 
 " Todo
 syn case match
-syn keyword phpTodo TODO FIXME XXX NOTE contained
+syn match phpTodo "\(TODO\|FIXME\|XXX\|NOTE\).*$" contained
 syn case ignore
 
 " Comment
